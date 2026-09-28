@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy · Expense Monster</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header><div class="logo">E</div><a href="./">Expense Monster</a></header>
+
+  <h1>Privacy Policy</h1>
+  <p><strong>Effective date:</strong> September 28, 2026<br>
+  <strong>Operator:</strong> David Richard, <a href="mailto:david.richard@gmail.com">david.richard@gmail.com</a></p>
+
+  <p>Expense Monster is a personal budgeting application that its operator runs on their own computer, for their own bank and credit-card accounts. This policy explains what data the application handles and how.</p>
+
+  <h2>What we collect</h2>
+  <p>When a bank is connected through Plaid, Expense Monster receives, via Plaid's Transactions product:</p>
+  <ul>
+    <li>account names, types, the last digits of account numbers (masks), and balances;</li>
+    <li>transactions: date, description, merchant name and logo, amount, category, and pending status.</li>
+  </ul>
+  <p>The user may also add rules, budgets, notes, and category changes, and import statement files.</p>
+  <p>We do <strong>not</strong> collect full account or routing numbers, identity information (name, address, SSN), or bank login credentials. Bank logins are handled entirely by Plaid and never reach Expense Monster.</p>
+
+  <h2>How the data is used</h2>
+  <p>Only to show the user their own spending, budgets, recurring charges, and balances. There is no advertising, profiling, analytics, or tracking.</p>
+
+  <h2>Where the data is stored</h2>
+  <p>On the user's own computer, in a local database, on an encrypted disk. Expense Monster has no servers and does not send financial data anywhere, except for its HTTPS requests to Plaid to retrieve that data.</p>
+
+  <h2>Sharing</h2>
+  <p>Data is not sold, rented, or shared with anyone. The only third party involved is <strong>Plaid</strong>, which connects to financial institutions. Plaid's handling of data is described in the <a href="https://plaid.com/legal/#end-user-privacy-policy">Plaid End User Privacy Policy</a>.</p>
+
+  <h2>Consent</h2>
+  <p>The user chooses which institutions to connect and consents to Plaid's terms in Plaid Link each time one is connected.</p>
+
+  <h2>Retention and deletion</h2>
+  <ul>
+    <li>Transactions and balances are kept while a connection is active, up to a rolling maximum of 7 years.</li>
+    <li>Removing a connection revokes its Plaid access token (via Plaid <code>/item/remove</code>) and deletes that connection's data.</li>
+    <li>All data can be deleted at any time by removing the app's local data folder.</li>
+    <li>Plaid connections can also be reviewed and revoked at <a href="https://my.plaid.com">my.plaid.com</a>.</li>
+  </ul>
+
+  <h2>Security</h2>
+  <p>Data is stored only on a FileVault-encrypted device, readable only by the owner's user account. The app's local server accepts connections only from the device itself, and all communication with Plaid uses TLS.</p>
+
+  <h2>Changes</h2>
+  <p>Changes to this policy will be posted on this page with a new effective date.</p>
+
+  <h2>Contact</h2>
+  <p>David Richard, <a href="mailto:david.richard@gmail.com">david.richard@gmail.com</a></p>
+
+  <footer><a href="./">Home</a><span>© 2026 David Richard</span></footer>
+</main>
+</body>
+</html>
